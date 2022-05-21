@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#EFB5EB",
-        secondary: "#02193D",
-        tertiary: "#02066F",
+        primary: "#FFDCF5",
+        secondary: "#FDC7FF",
+        tertiary: "#F2F4C3",
       },
       zIndex: {
         "-1": "-1",

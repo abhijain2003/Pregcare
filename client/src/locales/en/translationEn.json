@@ -1,0 +1,20 @@
+{
+  "langName": "English",
+  "logo": "PregCare",
+
+  "navLinkHome": "Home",
+  "navLinkDiary": "Diary",
+  "navLinkCounselor": "Counselor",
+  "navChangeLang": "Change Language",
+  "navLinkLogout": "Logout",
+
+  "homeTitle": "Welcome to PregCare",
+  "hoemAbout": "Caring for yourself when your pregnant can be quite a challenge. From getting enough nutrients, to being happy, there's a lot on your mind. PregCare will help you to manage your pregnancy journey. Click the button to get started!",
+
+  "homeCounselor": "Are you feeling down? Want to talk to someone and tell them how you feel? PregCare offers counseling and therapists services as well. Pregnancy is not an easy journey and having someone by your side will benefit you. Click the button below to schedule a meeting with a counselor today!",
+  "homeCounselorLink": "See a counselor",
+
+  "homeDiary": "Want to keep track of your daily feelings and symptoms? Head over to the Diary tab to journal what you are feeling as well as to keep track of anything else!",
+
+  "footerdesc": "PregCare. All Rights Reserved"
+}

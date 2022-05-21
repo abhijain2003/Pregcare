@@ -1,0 +1,20 @@
+{
+  "langName": "Englisch",
+  "logo": "PregCare",
+
+  "navLinkHome": "Zuhause",
+  "navLinkDiary": "Tagebuch",
+  "navLinkCounselor": "Berater",
+  "navChangeLang": "Sprache ändern",
+  "navLinkLogout": "Abmelden",
+
+  "homeTitle": "Willkommen bei PregCare",
+  "hoemAbout": "Sich um sich selbst zu kümmern, wenn Sie schwanger sind, kann eine ziemliche Herausforderung sein. Von der Versorgung mit ausreichend Nährstoffen bis hin zum Glücklichsein haben Sie viel im Kopf. PregCare hilft Ihnen, Ihre Schwangerschaft zu bewältigen. Klicken Sie auf die Schaltfläche, um loszulegen! ",
+
+  "homeCounselor": "Fühlen Sie sich niedergeschlagen? Möchten Sie mit jemandem sprechen und ihm sagen, wie Sie sich fühlen? PregCare bietet auch Beratungs- und Therapeutendienste an. Die Schwangerschaft ist kein einfacher Weg und es wird Ihnen gut tun, jemanden an Ihrer Seite zu haben. Klicken Sie auf die Schaltfläche unten, um noch heute ein Treffen mit einem Berater zu vereinbaren!",
+  "homeCounselorLink": "Berater aufsuchen",
+
+  "homeDiary": "Möchten Sie Ihre täglichen Gefühle und Symptome im Auge behalten? Gehen Sie zum Tagebuch-Tab, um zu notieren, was Sie fühlen, und um alles andere im Auge zu behalten!",
+
+  "footerdesc": "PregCare. Alle Rechte vorbehalten"
+}
