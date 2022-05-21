@@ -1,7 +1,7 @@
 import React from "react"
-import HeroImg from '../assets/hero.svg'
-import CounselorImg from '../assets/counselor.svg'
-import Diary from '../assets/diary.svg'
+import HeroImg from '../assets/woman-5857744.jpg'
+import CounselorImg from '../assets/girl-5801502.jpg'
+import Diary from '../assets/notebook-1840276.jpg'
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'
 
@@ -24,7 +24,7 @@ export default function Home() {
 
             <div className='md:grid md:grid-cols-2 pt-12 items-center'>
                 <div className="grid place-items-center py-4 drop-shadow-3xl shadow-black">
-                    <img src={CounselorImg} alt="img" width="300" height="300" />
+                    <img src={CounselorImg} alt="img" width="600" height="600" />
                 </div>
                 <div className=''>
                     <p className='text-xl md:text-2xl py-4 tracking-wider text-justify'>{t('homeCounselor')}</p>
