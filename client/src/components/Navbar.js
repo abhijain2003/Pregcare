@@ -53,15 +53,15 @@ export default function Navbar() {
                                     >
 
                                         <Link to="/">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-pink-300 cursor-pointer">{t('navLinkHome')}</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-[#FFAEC9] cursor-pointer">{t('navLinkHome')}</span>
                                         </Link>
 
                                         <Link to="/diary">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-pink-300 cursor-pointer">{t('navLinkDiary')}</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-[#FFAEC9] cursor-pointer">{t('navLinkDiary')}</span>
                                         </Link>
 
                                         <Link to="/counselor">
-                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-pink-300 cursor-pointer">{t('navLinkCounselor')}</span>
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-[#FFAEC9] cursor-pointer">{t('navLinkCounselor')}</span>
                                         </Link>
 
                                         <button className='bg-blue-600 py-2 px-8 rounded-md ml-2' onClick={() => auth.signOut()}>
@@ -81,15 +81,15 @@ export default function Navbar() {
                     <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full text-xl lg:items-center items-start flex flex-col lg:h-auto space-x-2 mr-12" >
 
                         <Link to="/">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-pink-300 cursor-pointer">{t('navLinkHome')}</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-[#FFAEC9] cursor-pointer">{t('navLinkHome')}</span>
                         </Link>
 
                         <Link to="/diary">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-pink-300 cursor-pointer">{t('navLinkDiary')}</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-[#FFAEC9] cursor-pointer">{t('navLinkDiary')}</span>
                         </Link>
 
                         <Link to="/counselor">
-                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-pink-300 cursor-pointer">{t('navLinkCounselor')}</span>
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-[#FFAEC9] cursor-pointer">{t('navLinkCounselor')}</span>
                         </Link>
 
                         <Menu as="div" className="relative inline-block text-left">
@@ -129,7 +129,7 @@ export default function Navbar() {
 
                                     <Menu.Item>
                                         <div className="w-full px-12 py-3 text-sm pl-16 cursor-pointer" onClick={changeLang("hi")} >
-                                        हिन्दी
+                                            हिन्दी
                                         </div>
                                     </Menu.Item>
 

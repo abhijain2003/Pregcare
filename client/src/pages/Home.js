@@ -30,7 +30,7 @@ export default function Home() {
                     <p className='text-xl md:text-2xl py-4 tracking-wider text-justify'>{t('homeCounselor')}</p>
 
                     <Link to="/counselor">
-                        <button className='bg-secondary py-2 px-8 rounded-md text-xl md:text-2xl'>{t('homeCounselorLink')}</button>
+                        <button className='bg-secondary hover:bg-[#FFAEC9] py-2 px-8 rounded-md text-xl md:text-2xl'>{t('homeCounselorLink')}</button>
                     </Link>
                 </div>
             </div>
