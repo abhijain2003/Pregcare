@@ -2,7 +2,7 @@ import React from 'react'
 import firebase from 'firebase'
 import { auth } from '../services/firebase'
 // import LoginImg from "../assets/login.svg"
-import LoginImg from "../assets/pregnancy-2700659.png"
+import LoginImg from "../assets/pregnancy-2700659.jpg"
 import GoogleLogo from "../assets/google_logo.png"
 
 function LogIn() {
