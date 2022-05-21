@@ -18,13 +18,13 @@ export default function Home() {
                     <p className='text-xl md:text-2xl py-4 tracking-wider text-justify'>{t('hoemAbout')}</p>
                 </div>
                 <div className="grid place-items-center py-4 drop-shadow-3xl shadow-black">
-                    <img src={HeroImg} alt="img" width="500" height="500" />
+                    <img src={HeroImg} alt="img" width="500" height="500" className="rounded-md" />
                 </div>
             </div>
 
             <div className='md:grid md:grid-cols-2 pt-12 items-center'>
                 <div className="grid place-items-center py-4 drop-shadow-3xl shadow-black">
-                    <img src={CounselorImg} alt="img" width="600" height="600" />
+                    <img src={CounselorImg} alt="img" width="600" height="600" className="rounded-md" />
                 </div>
                 <div className=''>
                     <p className='text-xl md:text-2xl py-4 tracking-wider text-justify'>{t('homeCounselor')}</p>
@@ -40,7 +40,7 @@ export default function Home() {
                     <p className='text-xl md:text-2xl py-4 tracking-wider text-justify'>{t('homeDiary')}</p>
                 </div>
                 <div className="grid place-items-center py-4 drop-shadow-3xl shadow-black">
-                    <img src={Diary} alt="img" width="500" height="500" />
+                    <img src={Diary} alt="img" width="500" height="500" className="rounded-md" />
                 </div>
             </div>
 

@@ -19,7 +19,7 @@ function LogIn() {
                 <div className="p-4 space-y-10 mad:space-y-0 md:grid md:grid-cols-2">
 
                     <div className="w-11/12 p-8 rounded-lg lg:-ml-4 sm:ml-16">
-                        <img width="600px" height="400px" src={LoginImg} alt="img" />
+                        <img width="600px" height="400px" src={LoginImg} alt="img" className="rounded-lg" />
                     </div>
 
                     <div className="md:flex md:flex-col md:justify-center lg:pr-16">
