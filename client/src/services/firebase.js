@@ -1,13 +1,12 @@
 import firebase from 'firebase'
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyCfosCvlkcEc1HCdyMXyUwQqJyU_DbAPxI",
-  authDomain: "emoticon-1abb7.firebaseapp.com",
-  projectId: "emoticon-1abb7",
-  storageBucket: "emoticon-1abb7.appspot.com",
-  messagingSenderId: "328305718237",
-  appId: "1:328305718237:web:f8bfef7a92c59700a07c34",
-  measurementId: "G-CQDW342C4K"
+  apiKey: "AIzaSyDYq7lKgTaermkhVwYPtgIQfW7jEO_bEc0",
+  authDomain: "pregcare-d8851.firebaseapp.com",
+  projectId: "pregcare-d8851",
+  storageBucket: "pregcare-d8851.appspot.com",
+  messagingSenderId: "134371893158",
+  appId: "1:134371893158:web:cb67f4687311b4aacab967"
 })
 
 const firestore = firebase.firestore()
