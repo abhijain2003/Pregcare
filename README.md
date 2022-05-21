@@ -2,14 +2,17 @@
 
 ## 💡 Inspiration
 
+Pregnancy can be a hard and stressful journey for many women as there are so many factors that influence it, such as eating right, getting enough vitamins and nutrients, etc. Furthermore, many women experience symptoms of depression and loneliness as their bodies are undergoing numerous hormonal changes. This inspired us to create a web app, which would allow pregnant women to connect with doctors and keep track of their mental and physical health.
+
 ## 💻 What it does
 
-PregCare is a web app that connects doctors and patients. Pregnent womens can find a doctor and book an appointment. They can also directly contact with hten of other pregennt womens in their private chatroom. We also help them to find the best doctor for their pregnancy and managing their health through the app. Users can also write diary and keep track of their health.
+PregCare is a web app that connects pregnant women to medical professionals and counselors. Pregnant women can create an account and keep track of their daily symptoms and feelings, through a virtual diary. This diary also tracks how much vitamin D they are getting as this vitamin is very important for healthy child development. Moreover, the web app allows patients to find medical professionals and book an appointment. They can also directly contact other pregnant women, in their private chatroom. We want help pregnant women to be able to manage their health and  have a smooth pregnancy journey!
 
- <!-- web app connecting doctors & patients during pregnancy. Pregnancy diary that communicates directly with the doctor. Also helps pregnant women to manage depressive symptoms and combrat vitamind d deficiency -->
+ <!-- web app connecting doctors & patients during pregnancy. Pregnancy diary that communicates directly with the doctor. Also helps pregnant women to manage depressive symptoms and combat vitamind d deficiency -->
 
 ## ⚙️ How we built it
 
+- Figma: Design
 - React Js: For frontend
 - Node Js: For backend
 - Socket.io: For realtime chat
@@ -27,7 +30,7 @@ We are using **Hedera’s testnet** to make a secure payment method. Hedera is a
 ## 🧠 Challenges we ran into
 
 - Due to difference in the Time Zone, we had some difficulty to collaborate, but we managed to get the project done.
-- Making a secure payment methos using Hedera.
+- Making a secure payment method using Hedera.
 
 ## 🏅 Accomplishments that we're proud of
 
@@ -42,3 +45,4 @@ We are using **Hedera’s testnet** to make a secure payment method. Hedera is a
 ## 🚀 What's next for PregCare
 
 - Building a mobile app
+- Adding more features(24/7 on call doctor, nutritional options, etc)
