@@ -21,7 +21,7 @@ PregCare is a web app that connects pregnant women to medical professionals and 
 
 ## 🌐 Best Domain Name from GoDaddy Registry
 
-- Register a domain on GoDaddy with extensions .co, .us.
+- Register a domain on GoDaddy with extensions: http://pregcare.co/
 
 ## 🔐 Best Blockchain Project Using Hedera
 
@@ -46,3 +46,7 @@ We are using **Hedera’s testnet** to make a secure payment method. Hedera is a
 
 - Building a mobile app
 - Adding more features(24/7 on call doctor, nutritional options, etc)
+
+Links:
+http://pregcare.co/
+https://www.figma.com/file/XGtwPQPmjG3O363nU5PZ6r/technica-%2722?node-id=0%3A1
