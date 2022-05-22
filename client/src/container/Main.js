@@ -1,7 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from '../components/Navbar';
 import Home from '../pages/Home';
-import Diary from '../pages/Diary';
+import Diary from '../pages/Calendar';
+import Add from '../pages/Add';
 import Counselor from '../pages/Counselor';
 import Chatbot from '../components/Chatbot';
 import Chatroom from '../pages/Chatroom';
@@ -13,6 +14,7 @@ function Main() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/add" element={<Add />} />
                 <Route path="/diary" element={<Diary />} />
                 <Route path="/counselor" element={<Counselor />} />
                 <Route path="/chatroom" element={<Chatroom />} />

@@ -69,7 +69,7 @@ export default function Counselor() {
                 {docInfo.map((exp) => (
                     <div className="max-w-sm content-center flex flex-col justify-center mx-auto bg-white mt-[10vh] rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                         <div className=" h-40 rounded-t-lg bg-contain bg-no-repeat bg-[url(https://www.linkpicture.com/q/Rectangle-6.png)]  flex flex-col justify-end pl-20 pr-20 pt-52  max-w-[24rem]">
-                            <img className="w-30 h-30 object-cover mb-2 z-10 rounded-md" height="400" width="200" src={exp.img_path} alt="logo" />
+                            <img className="object-cover mb-2 z-10 rounded-md" height="400" width="200" src={exp.img_path} alt="logo" />
 
                         </div>
                         <div className="flex flex-col pl-10 pb-10">

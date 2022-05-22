@@ -30,20 +30,20 @@ function Chat({ socket, username, room }) {
   }, [socket]);
 
   return (
-    <div className="chat-window">
-      <div className="chat-header">
-        <p>Live Chat</p>
+    <div className="w-96 h-96">
+      <div className="h-12 rounded-t-md bg-gray-800">
+        <p className="grid text-white place-items-center p-2 text-xl">Chat with Counselor</p>
       </div>
       <div className="chat-body">
-        <ScrollToBottom className="message-container">
+        <ScrollToBottom className="w-full h-full overflow-y-scroll overflow-x-hidden">
           {messageList.map((messageContent) => {
             return (
               <div
-                className="message"
+                className="h-auto p-2 flex"
                 id={username === messageContent.author ? "you" : "other"}
               >
                 <div>
-                  <div className="message-content">
+                  <div className="w-auto h-auto bg-green-600 rounded text-white flex items-center mr-1 ml-1 pr-1 pl-1 break-words text-xl px-4 py-1">
                     <p>{messageContent.message}</p>
                   </div>
                   <div className="message-meta">
@@ -68,7 +68,7 @@ function Chat({ socket, username, room }) {
             event.key === "Enter" && sendMessage();
           }}
         />
-        <button onClick={sendMessage}>&#9658;</button>
+        <button onClick={sendMessage} className="bg-[#FFAEC9]">&#9658;</button>
       </div>
     </div>
   );

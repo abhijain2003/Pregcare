@@ -17,13 +17,14 @@ function Chatroom() {
   };
 
   return (
-    <div className="App">
+    <div className="grid place-items-center min-h-screen">
       {!showChat ? (
-        <div className="joinChatContainer">
-          <h3>Join the chat</h3>
+        <div className="flex text-center flex-col">
+          <h3 className="text-3xl font-semibold pb-4">Join the room</h3>
           <input
             type="text"
             placeholder="Your name"
+            className="w-64 h-10 py-2 m-2 rounded p-1 text-xl border-2 border-black"
             onChange={(event) => {
               setUsername(event.target.value);
             }}
@@ -31,11 +32,12 @@ function Chatroom() {
           <input
             type="text"
             placeholder="Enter or Create a Room ID"
+            className="w-64 h-10 py-2 m-2 rounded p-1 text-xl border-2 border-black"
             onChange={(event) => {
               setRoom(event.target.value);
             }}
           />
-          <button onClick={joinRoom}>Join A Room</button>
+          <button onClick={joinRoom} className="w-64 h-12 m-2 rounded p-1 text-xl bg-[#FFAEC9] text-white cursor-pointer">Join a Room</button>
         </div>
       ) : (
         <Chat socket={socket} username={username} room={room} />
