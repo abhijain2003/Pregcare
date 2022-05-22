@@ -1,3 +1,5 @@
+const { Client, PrivateKey, AccountCreateTransaction, AccountBalanceQuery, Hbar, ConsensusTopicCreateTransaction, ConsensusMessageSubmitTransaction} = require("@hashgraph/sdk");
+require("dotenv").config();
 const express = require("express");
 const app = express();
 const http = require("http");
@@ -35,9 +37,6 @@ io.on("connection", (socket) => {
 server.listen(3001, () => {
     console.log("Server running on Port 3001");
 });
-
-const { Client, PrivateKey, AccountCreateTransaction, AccountBalanceQuery, Hbar, ConsensusTopicCreateTransaction, ConsensusMessageSubmitTransaction} = require("@hashgraph/sdk");
-require("dotenv").config();
 
 async function main() {
 
