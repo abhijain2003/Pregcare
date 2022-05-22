@@ -52,3 +52,5 @@ We are using **Hedera’s testnet** to make a secure payment method. Hedera is a
 - http://pregcare.co
 - https://www.figma.com/file/XGtwPQPmjG3O363nU5PZ6r/technica-%2722?node-id=0%3A1
 - https://www.canva.com/design/DAFBTMDY318/AxMtcP4dQxfl1OkPotUSHw/view?utm_content=DAFBTMDY318&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
+<!-- Crypto Wllet Address: 0xf0D542983C2C75F32F23315D449374E9ab5A6A12 -->
